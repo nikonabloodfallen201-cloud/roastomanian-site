@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a0a0a">
+<title>Roastomanian — сайт временно не работает</title>
+<meta name="description" content="Сайт временно не работает из-за масштабного технического сбоя у хостинга. Заказы и вопросы — в Telegram @roastomanian.">
+<style>
+  :root{
+    --bg:#0a0a0a; --text:#f2f2f0; --muted:#8c8c88; --dim:#5a5a57;
+    --line:#262624; --panel:#121211;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg)}
+  body{
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:48px 20px; color:var(--text);
+    font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{width:100%;max-width:560px}
+
+  .top{display:flex;align-items:center;gap:14px;margin-bottom:56px}
+  .brand{font-size:13px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--text);white-space:nowrap}
+  .rule{flex:1;height:1px;background:var(--line)}
+  .status{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);white-space:nowrap;display:flex;align-items:center;gap:8px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.dot{animation:none}}
+
+  h1{
+    font-size:clamp(34px,8vw,52px); line-height:1.04; font-weight:600;
+    letter-spacing:-.025em; margin:0 0 24px;
+  }
+  h1 span{color:var(--dim)}
+  .lead{color:var(--muted);margin:0 0 40px;max-width:46ch}
+
+  .btn{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    padding:20px 24px; border-radius:2px;
+    background:var(--text); color:var(--bg); text-decoration:none;
+    font-weight:600; font-size:18px; letter-spacing:-.01em;
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover,.btn:focus-visible{background:#fff;transform:translateY(-1px)}
+  .btn .l{display:flex;align-items:center;gap:12px}
+  .btn svg{width:22px;height:22px;flex:none}
+  .btn .arrow{font-weight:400;font-size:22px;line-height:1}
+  .handle{margin:12px 0 0;font-size:14px;color:var(--dim);letter-spacing:.02em}
+
+  .paid{margin:56px 0 0;padding:28px 0 0;border-top:1px solid var(--line)}
+  .label{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  h2{font-size:22px;line-height:1.25;font-weight:600;letter-spacing:-.015em;margin:0 0 12px}
+  .paid p{color:var(--muted);margin:0 0 20px}
+  ol{list-style:none;margin:0 0 20px;padding:0;border-top:1px solid var(--line)}
+  ol li{display:flex;gap:18px;padding:13px 0;border-bottom:1px solid var(--line)}
+  ol li span{font-variant-numeric:tabular-nums;color:var(--dim);font-size:14px;padding-top:2px;min-width:20px}
+
+  .outro{margin:56px 0 0;font-size:14px;color:var(--dim);line-height:1.7}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <span class="brand">Roastomanian</span>
+    <span class="rule"></span>
+    <span class="status"><span class="dot"></span>Технический сбой</span>
+  </div>
+
+  <h1>Сайт временно<br><span>не работает.</span></h1>
+  <p class="lead">У нашего хостинга масштабный технический сбой — пострадали не только мы. Точных сроков восстановления пока нет. Мы ищем решения, чтобы как можно скорее вернуть вам возможность заказывать любимый кофе. Заказы и вопросы — в Telegram.</p>
+
+  <a class="btn" href="https://t.me/roastomanian" target="_blank" rel="noopener">
+    <span class="l">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13 1.2 11.5c-1.1-.3-1.1-1.1.2-1.6L20.6 2.5c.9-.3 1.7.2 1.3 1.8z"/></svg>
+      Написать в Telegram
+    </span>
+    <span class="arrow" aria-hidden="true">→</span>
+  </a>
+  <p class="handle">@roastomanian</p>
+
+  <section class="paid">
+    <p class="label">Если вы уже оплатили заказ</p>
+    <h2>Заказы, оформленные с&nbsp;30&nbsp;октября по&nbsp;1&nbsp;ноября</h2>
+    <p>Напишите нам в личные сообщения и пришлите:</p>
+    <ol>
+      <li><span>01</span>Скриншот чека или письма с подтверждением оплаты</li>
+      <li><span>02</span>Номер заказа, если он есть</li>
+      <li><span>03</span>Адрес доставки</li>
+    </ol>
+    <p>Мы сверим информацию и отправим заказ в самое ближайшее время.</p>
+  </section>
+
+  <p class="outro">Мы продолжаем работать, жарить кофе и готовить новые лоты к анонсу. Спасибо за терпение и понимание.</p>
+</main>
+</body>
+</html>
